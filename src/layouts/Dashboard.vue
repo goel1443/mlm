@@ -1,8 +1,10 @@
 <template>
-    <div class="main">
+    <div>
                 <Header />
                 <Aside />
+                <div class="content">
                 <slot> </slot>  
+                </div>
                 <Footer/>
     </div>
 </template>
@@ -20,3 +22,12 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.content {
+    margin-top:80px;
+    margin-left:250px;
+}
+
+
+</style>

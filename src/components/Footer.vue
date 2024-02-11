@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1>Footer</h1>
+      <Footer class="footer">
+
+      </Footer>
     </div>
 </template>
 
@@ -9,3 +11,16 @@ export default {
     name:'Footer'
 }
 </script>
+
+<style scoped>
+.footer {
+    position:fixed;
+    z-index:4;
+    bottom: 0px;
+    left:0px;
+    height:80px;
+    background-color: var(--blue-navy);
+}
+
+
+</style>
